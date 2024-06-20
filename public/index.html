@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Downloader</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Video Downloader</h1>
+        <p>Paste the YouTube video URL below:</p>
+        <div class="inputContainer">
+            <input type="text" id="videoUrl" placeholder="Enter video URL..." class="videoInput">
+            <button id="downloadButton" class="downloadButton">Download</button>
+        </div>
+        <p id="message"></p>
+
+        <!-- Container for displaying video -->
+        <div id="videoContainer" class="videoContainer">
+            <!-- Video will be dynamically loaded here -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
